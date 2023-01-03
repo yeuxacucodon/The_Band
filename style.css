@@ -44,12 +44,18 @@ html {
   position: absolute;
   background-color: white;
   list-style: none;
-  box-shadow: ;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: none;
 }
 
 #nav .subnav a {
   color: black;
   padding: 16px;
+  line-height: 40px;
+}
+
+#nav li:hover .subnav {
+  display: block;
 }
 
 #about h1 {
@@ -66,12 +72,16 @@ html {
   padding: 30px 200px;
 }
 
-#member {
+#members {
   text-align: center;
 }
 
-#member li {
+#members li {
   display: inline-block;
   align-items: center;
   padding: 0 40px;
+}
+
+#about h1 {
+  text-transform: uppercase;
 }

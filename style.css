@@ -25,7 +25,7 @@ html {
   background-color: #cccccc;
 }
 
-#nav > li {
+#nav>li {
   display: inline-block;
   position: relative;
 }
@@ -42,7 +42,7 @@ html {
   padding-right: 24px;
 }
 
-#nav > li > a {
+#nav>li>a {
   text-transform: uppercase;
 }
 
@@ -224,7 +224,7 @@ html {
 
 .place-item {
   float: left;
-  width: calc(100%/3.1);
+  width: calc(100% / 3.1);
   margin-left: 8px;
 }
 
@@ -269,4 +269,23 @@ html {
 
 .buy-button:hover {
   opacity: 0.8;
+}
+
+#contact {
+  padding-top: 80px;
+  padding-bottom: 180px;
+}
+
+.contact-heading {
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.contact-info {
+  margin-top: 80px;
+  float: left;
+  margin-left: 300px;
 }

@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 html {
@@ -65,32 +65,58 @@ html {
   display: block;
 }
 
-#about h1 {
-  padding-top: 80px;
+#about h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 5px;
+  text-align: center;
 }
 
-#about h4 {
-  padding-top: 40px;
+#about .sub-heading {
   opacity: 0.6;
+  margin-top: 25px;
+  font-size: 15px;
+  text-align: center;
 }
 
-#about p {
+#about .about-text {
   text-align: justify;
-  padding: 30px 200px;
+  margin-top: 25px;
+  line-height: 1.4;
+  font-weight: 370;
+  font-size: 15px;
+}
+
+#about {
+  margin: 0 15%;
+  padding: 64px 0;
 }
 
 #members {
   text-align: center;
+  overflow: hidden;
 }
 
-#members li {
+#members h2 {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+#members .member-item {
   display: inline-block;
   align-items: center;
-  padding: 0 40px;
+  margin: 20px 40px;
 }
 
-#about h1 {
-  text-transform: uppercase;
+#members .member-item img {
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#members .member-name {
+  margin-bottom: 10px;
+  font-size: 15px;
 }
 
 #nav .arrow-down {

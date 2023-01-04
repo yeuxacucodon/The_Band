@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <!-- header -->
+  <!-- Header -->
   <div id="header">
     <ul id="nav">
       <li><a href="">Home</a></li>
@@ -30,6 +30,8 @@
       <i class="ti-search"></i>
     </div>
   </div>
+  <!-- End Header -->
+
   <!-- Slide show -->
   <div id="slide">
     <div class="content">
@@ -39,6 +41,8 @@
       </div>
     </div>
   </div>
+  <!-- End slide show -->
+
   <!-- About -->
   <div id="about">
     <h2>the band</h2>
@@ -56,6 +60,8 @@
       exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
   </div>
+  <!-- End about -->
+
   <!-- Members -->
   <div id="members">
     <h2>Band Members</h2>
@@ -74,6 +80,8 @@
       </div>
     </div>
   </div>
+  <!-- End members -->
+
   <!-- Tour Dates -->
   <div id="tour">
     <div class="content-section">
@@ -96,7 +104,7 @@
             <p class="place-description">
               Praesent tincidunt sed tellus ut rutrum sed vitae justo.
             </p>
-            <a href="#" class="buy-button">Buy Tickets</a>
+            <button class="js-buy-ticket buy-button">Buy Tickets</button>
           </div>
         </div>
         <!-- Paris -->
@@ -108,7 +116,7 @@
             <p class="place-description">
               Praesent tincidunt sed tellus ut rutrum sed vitae justo.
             </p>
-            <a href="#" class="buy-button">Buy Tickets</a>
+            <button class="js-buy-ticket buy-button">Buy Tickets</button>
           </div>
         </div>
         <!-- San Francisco -->
@@ -120,12 +128,14 @@
             <p class="place-description">
               Praesent tincidunt sed tellus ut rutrum sed vitae justo.
             </p>
-            <a href="#" class="buy-button">Buy Tickets</a>
+            <button class="js-buy-ticket buy-button">Buy Tickets</button>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- End tour -->
+
   <!-- Contact -->
   <div id="contact">
     <div>
@@ -133,6 +143,46 @@
       <p style="text-align: center"><i>Fan? Drop a note!</i></p>
     </div>
   </div>
+  <!-- End contact -->
+
+  <!-- Modal -->
+  <div class="js-modal modal">
+    <div class="modal-container js-modal-container">
+      <div class="close js-modalClose">
+        <i class="ti-close"></i>
+      </div>
+      <!-- Modal header -->
+      <header class="modal-header">
+        <i class="modal-header-icon ti-bag"></i>
+        Tickets
+      </header>
+      <!-- Modal body -->
+      <div class="modal-body">
+        <label for="ticket-quantity" class="modal-label">
+          <i class="ti-shopping-cart"></i>
+          Tickets, $15 per person
+        </label>
+        <input id="ticket-quantity" type="text" class="modal-input" placeholder="How many?">
+
+        <label for="ticket-email" class="modal-label">
+          <i class="ti-user"></i>
+          Send to
+        </label>
+        <input id="ticket-email" type="text" class="modal-input" placeholder="Enter email...">
+
+        <button class="buy-tickets">
+          Pay <i class="ti-check"></i>
+        </button>
+      </div>
+      <!-- Modal footer -->
+      <footer class="modal-footer">
+        <p class="need-help">Need <a href="#">help?</a></p>
+      </footer>
+    </div>
+  </div>
+  <!-- End modal -->
+
+  <script src="open_modal.js"></script>
 </body>
 
 </html>

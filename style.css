@@ -53,11 +53,11 @@ html {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   display: none;
   min-width: 130px;
+  cursor: pointer;
 }
 
 #nav .subnav a {
   color: black;
-  padding: 16px;
   line-height: 40px;
 }
 

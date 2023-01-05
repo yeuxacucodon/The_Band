@@ -25,7 +25,7 @@ html {
   background-color: #cccccc;
 }
 
-#nav>li {
+#nav > li {
   display: inline-block;
   position: relative;
 }
@@ -42,7 +42,7 @@ html {
   padding-right: 24px;
 }
 
-#nav>li>a {
+#nav > li > a {
   text-transform: uppercase;
 }
 
@@ -174,7 +174,7 @@ html {
   color: white;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
   font-weight: 500;
 }
 
@@ -271,25 +271,6 @@ html {
 
 .buy-button:hover {
   opacity: 0.8;
-}
-
-#contact {
-  padding-top: 80px;
-  padding-bottom: 180px;
-}
-
-.contact-heading {
-  letter-spacing: 4px;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  font-weight: 500;
-}
-
-.contact-info {
-  margin-top: 80px;
-  float: left;
-  margin-left: 300px;
 }
 
 .modal {
@@ -391,11 +372,80 @@ html {
   display: flex;
 }
 
+.contact-heading {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 500;
+  padding-top: 80px;
+}
+
+.contact-sub-heading {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  opacity: 0.5;
+}
+
+.contact-info {
+  width: 20%;
+  float: left;
+  padding-left: 220px;
+  line-height: 1.5;
+}
+
+.contact-form {
+  width: 40%;
+  float: right;
+  padding-right: 75px;
+  font-size: 15px;
+}
+
+.contact-me {
+  padding-top: 50px;
+  display: block;
+  overflow: auto;
+  width: 100%;
+}
+
+.contact-icon {
+  padding-right: 5px;
+  width: 3px;
+}
+
+.form-control {
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+}
+
+.contact-messages {
+  margin-top: 5px;
+}
+
+.contact-messages input {
+  width: 70%;
+}
+
+.send-button {
+  margin-top: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  float: right;
+  margin-right: 140px;
+}
+
+#contact {
+  padding-bottom: 80px;
+}
+
 @keyframes modalfadein {
   from {
     opacity: 0;
     transform: translateY(-50px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);

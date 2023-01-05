@@ -401,6 +401,12 @@ html {
   font-size: 15px;
 }
 
+.contact-form::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 .contact-me {
   padding-top: 50px;
   display: block;
@@ -434,6 +440,11 @@ html {
   padding: 10px 20px;
   float: right;
   margin-right: 140px;
+}
+
+.send-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 #contact {

@@ -451,6 +451,29 @@ html {
   padding-bottom: 80px;
 }
 
+#map img {
+  width: 100%;
+}
+
+#footer {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icon {
+  margin: 0 8px;
+  color: black;
+}
+
+.social-list a {
+  text-decoration: none;
+}
+
 @keyframes modalfadein {
   from {
     opacity: 0;

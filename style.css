@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Common */
+.text-justify {
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-heading {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.text-subheading {
+  margin-bottom: 20px;
+  opacity: 0.8;
+  font-size: 15px;
+  font-weight: 370;
+}
+
+.button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* ---------------- */
+
+/* Header */
+#header {
+  position: fixed;
+  top: 0;
+  background-color: black;
+  height: 46px;
+  width: 100%;
+  z-index: 1;
+}
+
+.menu li {
+  position: relative;
+  display: inline-block;
+  line-height: 46px;
+}
+
+.menu>li>a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.menu>li:hover>a {
+  color: black;
+  background-color: #c5c5c5;
+}
+
+.menu .submenu a {
+  text-decoration: none;
+  padding: 0 20px;
+  color: black;
+  display: block;
+}
+
+.menu .submenu li {
+  width: 100%;
+  min-width: 140px;
+}
+
+.menu .submenu {
+  position: absolute;
+  background-color: white;
+  display: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+.submenu li:hover a {
+  background-color: #c5c5c5;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+/* End header */
+
+/* Slide show */
+#slide-show {
+  position: relative;
+  margin-top: 46px;
+  background: url("/img/slide/slide1.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 50%;
+  background-position: top center;
+}
+
+#slide-show .content {
+  position: absolute;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+/* End slide show */
+
+/* Band */
+#band {
+  margin: 80px 0;
+}
+
+#band h2 {
+  margin-bottom: 20px;
+}
+
+#band .text-justify {
+  line-height: 1.4;
+  font-size: 15px;
+  margin: 0 20%;
+}
+
+.members {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.members .member-item {
+  padding: 0 20px;
+}
+
+.member-item img {
+  margin-top: 15px;
+  border-radius: 4px;
+  max-width: 160px;
+}
+
+/* End band */
+
+/* Tour */
+#tour {
+  padding: 80px 0;
+  background-color: black;
+}
+
+#tour .text-heading {
+  color: white;
+}
+
+#tour .text-subheading {
+  color: white;
+}
+
+#tour .content-section {
+  margin: 0 20%;
+}
+
+.tickets-list {
+  background-color: white;
+}
+
+.tickets-list li {
+  padding: 10px 15px;
+  border-bottom: 1px solid #c5c5c5;
+  color: #6a6a6a;
+  list-style: none;
+}
+
+.tickets-list .quantity {
+  float: right;
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  margin-top: -3px;
+}
+
+.sold-out {
+  margin-left: 8px;
+  background-color: red;
+  padding: 3px 5px;
+  color: white;
+}
+
+.place-list {
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  margin-left: -8px;
+  margin-right: -8px;
+  align-items: center;
+}
+
+.place-item {
+  margin: 0 8px;
+}
+
+.place-item img {
+  width: 100%;
+  display: block;
+}
+
+.place-body {
+  padding-top: 1px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+.place-heading {
+  font-weight: 500;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.place-time {
+  opacity: 0.8;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.place-description {
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.place-img:hover {
+  opacity: 0.8;
+}
+
+/* End tour */
+
+/* Contact */
+#contact {
+  margin: 80px 0;
+}
+
+.contact-info {
+  float: left;
+}
+
+.contact-form {
+  margin: 0 20%;
+  overflow: auto;
+}
+
+.send {
+  float: right;
+}
+
+.messages {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.form-control {
+  padding: 10px 10px;
+  border: 1px solid #6a6a6a;
+}
+
+.send .button {
+  margin-top: 5px;
+  float: right;
+}
+
+/* End contact */
+
+/* Map */
+#map img {
+  width: 100%;
+}
+/* End map */
+
+/* Footer */
+
+/* End footer */

@@ -324,3 +324,102 @@
 }
 
 /* End footer */
+
+/* Modal */
+.modal.open {
+  display: flex;
+}
+
+.modal {
+  position: fixed;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  align-items: center;
+  display: none;
+}
+
+.modal-header p {
+  font-size: 30px;
+}
+
+.modal-header .fa-bag-shopping {
+  margin-right: 5px;
+}
+
+.modal-container {
+  background-color: white;
+  min-width: 700px;
+  min-height: 300px;
+  position: relative;
+  animation: modal-fade ease 0.3s;
+}
+
+.close-button {
+  right: 0;
+  position: absolute;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: red;
+}
+
+.modal-header {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+.modal-body {
+  margin: 20px 20px;
+}
+
+.modal-body input {
+  width: 100%;
+  padding: 10px 5px;
+  margin: 10px 0;
+  border: 1px solid #6a6a6a;
+}
+
+.modal-body button {
+  width: 100%;
+  padding: 10px 5px;
+  border: none;
+  color: white;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+.modal-body p {
+  font-size: 15px;
+}
+
+.modal-icon {
+  margin-right: 5px;
+}
+
+.modal-body button:hover {
+  background-color: green;
+}
+
+
+@keyframes modal-fade {
+  from {
+    opacity: 0.5;
+    transform: translateY(-150px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* End modal */

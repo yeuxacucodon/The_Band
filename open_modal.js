@@ -15,7 +15,9 @@ for (const buyBtn of buyBtns) {
 	buyBtn.addEventListener("click", showmodal);
 }
 
-modal.addEventListener("click", function (event) {
+modal.addEventListener("click", hidemodal);
+
+modalContainer.addEventListener("click", function (event) {
 	event.stopPropagation();
 });
 

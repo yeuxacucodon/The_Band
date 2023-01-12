@@ -58,7 +58,7 @@
   line-height: 46px;
 }
 
-.menu>li>a {
+.menu > li > a {
   display: inline-block;
   color: white;
   text-decoration: none;
@@ -67,7 +67,7 @@
   text-transform: uppercase;
 }
 
-.menu>li:hover>a {
+.menu > li:hover > a {
   color: black;
   background-color: #c5c5c5;
 }
@@ -260,7 +260,6 @@
 .contact-info {
   float: left;
   line-height: 1.5;
-  margin-left: -8px;
 }
 
 .contact-form {
@@ -288,8 +287,8 @@
 }
 
 .contact-icon {
+  width: 20px;
   left: 0;
-  width: 30px;
   display: inline-block;
 }
 
@@ -408,7 +407,6 @@
 .modal-body button:hover {
   background-color: green;
 }
-
 
 @keyframes modal-fade {
   from {

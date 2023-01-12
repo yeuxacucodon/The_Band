@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <title>The Band</title>
   <link rel="stylesheet" href="style.css" />
-  <script src="https://kit.fontawesome.com/8846e46c3a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
           <li><a href="#tour">Tour</a></li>
           <li><a href="#contact">Contact</a></li>
           <li>
-            <a> More <i class="fa-solid fa-down"></i> </a>
+            <a>More <span class="mdi mdi-arrow-down-drop-circle"></span></a>
             <ul class="submenu">
               <li><a href="#">Merchandise</a></li>
               <li><a href="#">Extras</a></li>
@@ -138,16 +138,9 @@
       <p class="text-subheading text-center">Fan? Drop a note!</p>
       <div class="contact-form">
         <div class="contact-info">
-          <p>
-            <i class="contact-icon fa-solid fa-location-dot"></i>Chicago, US
-          </p>
-          <p>
-            <i class="contact-icon fa-solid fa-phone"></i>Phone: +00 151515
-          </p>
-          <p>
-            <i class="contact-icon fa-solid fa-envelope"></i>Email:
-            mail@mail.com
-          </p>
+          <p><span class="mdi mdi-google-maps contact-icon"></span>Chicago, US</p>
+          <p><span class="mdi mdi-phone-incoming-outgoing contact-icon"></span>Phone: +00 151515</p>
+          <p><span class="mdi mdi-email contact-icon"></span>Email: mail@mail.com</p>
         </div>
         <div class="send">
           <form action="">
@@ -172,8 +165,8 @@
     <!-- Footer -->
     <div id="footer">
       <div class="social-icon">
-        <a href="https://github.com/yeuxacucodon" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.facebook.com/yeuxacucodon/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://github.com/yeuxacucodon" target="_blank"><span class="mdi mdi-github"></span></a>
+        <a href="https://www.facebook.com/yeuxacucodon/" target="_blank"><span class="mdi mdi-facebook"></span></a>
       </div>
     </div>
     <!-- End footer -->
@@ -182,18 +175,16 @@
     <div class="modal">
       <div class="modal-container">
         <div class="close-button modal-close">
-          <i class="fa-solid fa-x"></i>
+          <span class="mdi mdi-close"></span>
         </div>
         <div class="modal-header">
-          <p><i class="fa-solid fa-bag-shopping"></i>Tickets</p>
+          <p><span class="mdi mdi-shopping modal-icon"></span>Tickets</p>
         </div>
         <div class="modal-body">
-          <p><i class="modal-icon fa-solid fa-cart-shopping"></i>Tickets, $15 per person</p>
-          <input type="text" placeholder="How many?">
-
-          <p><i class="modal-icon fa-solid fa-user"></i>Send to</p>
-          <input type="email" placeholder="Enter email...">
-
+          <p><span class="mdi mdi-cart modal-icon"></span>Tickets, $15 per person</p>
+          <input type="text" placeholder="How many?" />
+          <p><span class="mdi mdi-account modal-icon"></span>Send to</p>
+          <input type="email" placeholder="Enter email..." />
           <button>PAY</button>
         </div>
       </div>

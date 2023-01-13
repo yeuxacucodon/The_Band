@@ -422,26 +422,3 @@
 }
 
 /* End modal */
-
-/* Ipad */
-@media (max-width: 820px) {
-  #band .text-justify {
-    line-height: 1.4;
-    font-size: 15px;
-    margin: 0 16px;
-  }
-
-  .place-item {
-    margin: 0 4px;
-    max-width: 100%;
-  }
-
-  #tour .content-section {
-    margin: 0 16px;
-  }
-
-  .contact-form {
-    margin: 0 16px;
-    overflow: auto;
-  }
-}

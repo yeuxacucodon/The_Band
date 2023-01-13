@@ -214,6 +214,7 @@
 
 .place-item {
   margin: 0 8px;
+  max-width: 100%;
 }
 
 .place-item img {
@@ -411,7 +412,7 @@
 @keyframes modal-fade {
   from {
     opacity: 0.5;
-    transform: translateY(-150px);
+    transform: translateY(-100px);
   }
 
   to {
@@ -421,3 +422,26 @@
 }
 
 /* End modal */
+
+/* Ipad */
+@media (max-width: 820px) {
+  #band .text-justify {
+    line-height: 1.4;
+    font-size: 15px;
+    margin: 0 16px;
+  }
+
+  .place-item {
+    margin: 0 4px;
+    max-width: 100%;
+  }
+
+  #tour .content-section {
+    margin: 0 16px;
+  }
+
+  .contact-form {
+    margin: 0 16px;
+    overflow: auto;
+  }
+}

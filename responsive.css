@@ -11,6 +11,11 @@
     max-width: 100%;
   }
 
+  .place-list {
+    margin-left: -4px;
+    margin-right: -4px;
+  }
+
   #tour .content-section {
     margin: 0 16px;
   }

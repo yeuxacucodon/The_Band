@@ -25,6 +25,10 @@
 
 /* Phone */
 @media only screen and (max-width: 600px) {
+  .full-width {
+    width: 100%;
+  }
+
   #header {
     overflow: hidden;
   }
@@ -105,5 +109,9 @@
 
   .messages {
     margin: 0;
+  }
+
+  .send .button {
+    margin-top: 10px;
   }
 }

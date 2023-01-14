@@ -56,4 +56,54 @@
   .menu li .yo {
     display: block;
   }
+
+  .menu .submenu {
+    position: initial;
+    background-color: #333;
+  }
+
+  .menu .submenu a {
+    color: white;
+    padding-left: 50px;
+  }
+
+  .members {
+    margin-top: 80px;
+    display: block;
+  }
+
+  .member-item {
+    margin-top: 50px;
+  }
+
+  .member-item img {
+    display: block;
+    margin: 20px auto;
+  }
+
+  .place-item {
+    margin-top: 16px;
+  }
+
+  .place-list {
+    display: block;
+  }
+
+  .contact-info {
+    margin-bottom: 20px;
+  }
+
+  .send {
+    float: left;
+    width: 100%;
+  }
+
+  .form-control {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .messages {
+    margin: 0;
+  }
 }

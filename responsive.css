@@ -1,8 +1,6 @@
-/* Ipad */
+/* Tablet */
 @media (max-width: 820px) {
   #band .text-justify {
-    line-height: 1.4;
-    font-size: 15px;
     margin: 0 16px;
   }
 
@@ -22,6 +20,28 @@
 
   .contact-form {
     margin: 0 16px;
-    overflow: auto;
+  }
+}
+
+/* Phone */
+@media (max-width: 600px) {
+  #header {
+    overflow: hidden;
+  }
+
+  .menu li {
+    display: block;
+  }
+
+  .menu > li:first-child {
+    display: inline-block;
+  }
+
+  .menu-mobile {
+    display: block;
+  }
+
+  .menu li .yo {
+    display: block;
   }
 }
